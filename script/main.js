@@ -1,14 +1,14 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
   Swal.fire({
-    title: 'Due tige kucing berlari, Yeayy selamat hari raya Idul Fithri ^^.',
+    title: 'Wanna See This?',
     // text: "You won't be able to revert this!",
-    icon: 'love',
+    icon: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: 'Lucu',
-    cancelButtonText: 'Lucu banget',
+    confirmButtonText: 'Absolutely Yes!',
+    cancelButtonText: 'Teken yang satunya lagi ya bu, biar bisa liat^',
   }).then((result) => {
     if (result.isConfirmed) {
       document.querySelector('.song').play();
