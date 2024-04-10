@@ -1,7 +1,7 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
   Swal.fire({
-    title: 'Due tige kucing berlari, Yeayy selamat hari raya Idul Fitri ^^.',
+    title: 'Due tige kucing berlari, Yeayy selamat hari raya Idul Fithri ^^.',
     // text: "You won't be able to revert this!",
     icon: 'love',
     showCancelButton: true,
